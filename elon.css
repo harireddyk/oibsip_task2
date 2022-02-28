@@ -1,0 +1,26 @@
+
+  body {
+    background: linear-gradient(to bottom, #e2eb64 0%, #e05555 100%);
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  #img-box {
+      box-shadow: 10px 10px 5px grey;
+  }
+  
+  @media all and (max-width: 1200px) {
+      body {
+          font-size: 2em;
+
+      }
+  }
+  @media all and (max-width: 1000px) {
+      body {
+          font-size: 1.5em; /*default*/
+          }
+      }
+  @media all and (max-width: 500px) {
+      body {
+          font-size: 1em;
+          }
+      }
